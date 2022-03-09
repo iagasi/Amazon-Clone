@@ -1,0 +1,28 @@
+.order{
+    background-color: azure;
+    
+}
+
+.order>h1{
+   
+}
+
+.order__all{
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+   background-color: rgb(227, 233, 233);
+margin-bottom: 50px;
+
+
+}
+
+.order__all>h2{
+    border-top: 1px solid black;
+}
+
+.order__bottom{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+/* background-color: brown; */
+}

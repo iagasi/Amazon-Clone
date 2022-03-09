@@ -3,13 +3,13 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 110px;
    
 }
 .subtotal__button{
     background-color: rgb(241, 166, 112);
-    border: 1px solid white;
-    height: 30px;
+  border:none;
+    height: 50px;
     margin-top: 8px;
     min-width:300px;
 }

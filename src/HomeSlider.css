@@ -1,0 +1,18 @@
+.home-slider {
+  display: flex;
+  width: 1500px;
+  z-index: -10;
+ 
+  transition: ease 1000ms;
+
+}
+
+.home-slider__mainImage {
+  min-width: 1500px;
+  height: 500px;
+  object-fit: cover;
+}
+.home-slider__main {
+  overflow: hidden;
+  z-index: -10;
+}

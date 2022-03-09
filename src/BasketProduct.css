@@ -16,6 +16,7 @@ object-fit: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 10px;
 }
 .basket-product__right>button{
     background-color: chocolate;
@@ -24,4 +25,7 @@ object-fit: cover;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    height: 30px;
+    color: white;
+    
 }

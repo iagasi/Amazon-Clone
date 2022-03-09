@@ -1,28 +1,31 @@
-.home__mainImage {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
-
 .home__container {
-
-    margin-top: -50px;
-
-
+  /* margin-top: -50px; */
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+ 
+}
+.home {
+  max-width: 1500px;
+  margin: auto;
+  margin-top: -50px;
+}
 
-  justify-content: space-between;
+.home__11 {
+  display: flex;
+  width: 100%;
 }
-.home{
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(235, 231, 231);
+.home__1 {
+  flex: 0.9;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.home__row{
- width: 100%;
-display: flex;
-flex-direction: row;
-object-fit: contain;}
+
+.home__22 {
+  display: flex;
+}
+.home__2 {
+  flex: 1;
+  margin-right: 5px;
+  margin-left: 5px;
+}

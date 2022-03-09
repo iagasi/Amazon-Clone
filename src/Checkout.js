@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import BasketProduct from './BasketProduct'
 import "./Checkout.css"
 import { useStateValue } from './StateProvider'
 import Subtotal from './Subtotal'
 function Checkout() {
-    const[{basket}]=useStateValue()
+    const[{basket,user}]=useStateValue()
+   
 console.log(basket);
     return (
         <div className='checkout'>
@@ -13,6 +15,8 @@ console.log(basket);
                 <img className='checkout__img' src="https://cdn.andnowuknow.com/mainStoryImage/amazon_newstore_111119.png?2elFDH.NARL3RqUKy0Nq2e.e1THgJeWI"></img>
 
                 <div className='checkout__title'>
+                    <h4>{user?.email}</h4>
+
                     <h2> Shoping Basket</h2>
 
     </div>

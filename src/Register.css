@@ -1,0 +1,52 @@
+.register{
+
+    height: 100vh;
+    width: 100%;
+
+    background-color: rgba(155, 155, 155, 0.4);
+   margin-top: -80px;
+   z-index: 100;
+   display: flex;
+  place-items: center;position: fixed;
+}
+.register__container>img{
+  margin: 0 auto;
+width:350px;
+}
+.register__container{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding:20px;
+margin: 0 auto;
+opacity: 1;
+
+
+}
+.register__container>h1{
+    text-align: center;
+}
+.register__form{
+    display :flex;
+    flex-direction: column;
+}
+
+.register__register{
+    background-color: coral;
+    border: none;
+    height: 30px;
+    width: 80%;
+    margin: auto;
+margin-top: 50px;
+
+}
+
+.register__close{
+    background-color: rgb(101, 50, 240);
+    border: none;
+    height: 30px;
+    width: 80%;
+    margin: auto;
+margin-top: 10px;
+color:white
+}

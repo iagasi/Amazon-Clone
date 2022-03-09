@@ -31,17 +31,16 @@ function Header() {
                 <div className='header__searchIc'><SearchIcon /></div>
             </div>
             <div className='header__nav'>
-                <div className='header__option'>Hello {state.user&&state.user.displayName?state.user.displayName?.split(" ")[0]:"Guest"}
+                <div className='header__option'>Hello {state.user?.email}
                     <span onClick={authHandler} className='header__optionLineDown '>{state.user ? "Sighn-Out" : "Sighn in"}</span>
 
 
                 </div>
+                <NavLink className="NavLink" to="/orders">
                 <div className='header__option'>Your
                     <span className='header__optionLineDown'>Order</span>
-                </div>
-                <div className='header__option'>Best
-                    <span className='header__optionLineDown'>Prime</span>
-                </div>
+                </div></NavLink>
+               
             </div>
             <NavLink to="checkout">
                 <div className='header__optionBasket'>
